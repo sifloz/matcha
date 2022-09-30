@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
 body {
     background-color: #fffbf7;
+    font-family: "Open Sans", sans-serif;
 }
 
 h1 {
@@ -29,6 +32,7 @@ header {
     font-size: 0px;
     position: fixed;
     top: 0;
+    width: 100wh;
     background-color: #fffbf7;
     box-shadow: 0px 16px rgba(0,0,0,0.5);
 }
@@ -121,6 +125,80 @@ li {
     margin-top: 10px;
 }
 
-p {
-    color: blue;
+button:hover {
+    cursor: pointer;
+}
+
+.features {
+    margin: 120px 0;
+    padding: 60px 120px;
+    background-color: #025157;;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
+.feature {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    background-color: white;
+    padding: 36px;
+    border-radius: 12px;
+}
+
+.feature .feature-details h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+}
+
+.feature .feature-details img {
+    height: 100px;
+}
+
+.feature .feature-details p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+}
+
+.feature .feature-details a {
+    color: #67b54b;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 80px;
+    gap: 12px;
+    background-color: white;
+    padding: 36px;
+    border-radius: 12px;
+}
+
+.feature-grid .feature-details h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+}
+
+.feature-grid .feature-details img {
+    height: 100px;
+}
+
+.feature-grid .feature-details p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+}
+
+.feature-grid .feature-details a {
+    color: #67b54b;
+    font-weight: 600;
+    font-size: 16px;
 }
