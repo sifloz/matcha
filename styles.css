@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap');
 
 body {
     background-color: #fffbf7;
     font-family: "Open Sans", sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Alegreya", sans-serif;
+}
+
 h1 {
     color: #025157;
+    font-size: 45px;
 }
 
 h4 {
@@ -90,7 +96,6 @@ li {
 }
 
 .publish h3 {
-    font-family: sans-serif;
     font-size: 40px;
     line-height: 48px;
     color: #025157;
@@ -201,4 +206,65 @@ button:hover {
     color: #67b54b;
     font-weight: 600;
     font-size: 16px;
+}
+
+@media (max-width: 575px) {
+    .navbar, .actions {
+        display: none;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .main {
+        margin-top: 80px;
+    }
+
+    .main img {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .explanatory-video, .publish {
+        width: 90%;
+    }
+
+    .explanatory-video video {
+        width: 100%;
+    }
+
+    .publish h3 {
+        font-size: 25px;
+    }
+
+    .publish p {
+        line-height: 24px;
+    }
+
+    .publish-actions {
+        display: grid;
+        grid-template-columns: 1fr 120px;
+    }
+}
+
+@media ((min-width: 576px) and (max-width: 767px)) {
+
+}
+
+@media ((min-width: 768px) and (max-width: 991px)) {
+
+}
+
+@media ((min-width: 992px) and (max-width: 1199px)) {
+
+}
+
+@media (min-width: 1200px) {
+
 }
