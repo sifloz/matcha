@@ -67,14 +67,15 @@ li {
 }
 
 .navbar {
-    width: 70%;
     text-align: center;
     font-weight: 500;
     color: #025157;
 }
 
 .actions {
-    width: 15%;
+    display: flex;
+    gap: 12px;
+    align-items: center;
     text-align: right;
     font-weight: 600;
 }
