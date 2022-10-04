@@ -287,7 +287,6 @@ button:hover {
     font-weight: 600;
     line-height: 20px;
     margin-bottom: 12px;
-    font-family: "Slabo 27px", serif;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -303,11 +302,11 @@ button:hover {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 20px;
 }
 
 .success-stories .card .card-body .results img {
     width: 26px;
-    margin-right: 20px;
 }
 
 .success-stories .card .card-body .results p {
@@ -356,6 +355,10 @@ button:hover {
 .success-stories .card .card-body .card-circle.everly img {
     object-fit: contain;
     width: 100%;
+}
+
+.carousel-indicators {
+    bottom: -45px;
 }
 
 @media (max-width: 575px) {
