@@ -152,37 +152,6 @@ button:hover {
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
 }
 
-.feature {
-    display: flex;
-    align-items: baseline;
-    gap: 12px;
-    background-color: white;
-    padding: 36px;
-    border-radius: 12px;
-}
-
-.feature .feature-details h3 {
-    font-size: 24px;
-    color: #343434;
-    font-weight: 400;
-}
-
-.feature .feature-details img {
-    height: 100px;
-}
-
-.feature .feature-details p {
-    font-size: 16px;
-    color: #7e7e7e;
-    font-weight: 400;
-}
-
-.feature .feature-details a {
-    color: #67b54b;
-    font-weight: 600;
-    font-size: 16px;
-}
-
 
 .feature-grid {
     display: grid;
