@@ -220,6 +220,7 @@ button:hover {
     padding: 5% 15%;
     display: flex;
     gap: 20px;
+    align-items: center;
     justify-content: space-around;
 }
 
