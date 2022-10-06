@@ -49,10 +49,6 @@
         width: 180px;
         margin-bottom: 15px;
     }
-
-    .card {
-        
-    }
 }
 
 .feature {
@@ -85,5 +81,11 @@
             font-weight: 600;
             font-size: 16px;
         }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    body {
+        background-color: #ffffff;
     }
 }
